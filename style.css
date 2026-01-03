@@ -37,12 +37,12 @@ body {
     margin: 0;
 }
 
-.small-text-placeholder {
+/* .small-text-placeholder {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
     text-align: center;
-}
+} */
 
 ul {
     display: flex;
@@ -64,6 +64,7 @@ a {
     justify-content: space-between;
     padding: 50px 0;
     align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -75,11 +76,15 @@ a {
 
 .placeholder {
     flex: 1;
-    height: 228px;
-    background-color: gray;
     display: flex;
+    height: 228px;
     align-items: center;
     justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 .button {
